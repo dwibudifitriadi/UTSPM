@@ -1,10 +1,21 @@
 Link YouTube : https://youtu.be/FGdUVLyGdKc?si=cVPS2PrBfOXrUrxK
-Wireframe :
-<img width="941" height="1541" alt="image" src="https://github.com/user-attachments/assets/ff713be1-6faf-44d2-bd33-0428530c57ad" />
-<img width="657" height="1291" alt="image" src="https://github.com/user-attachments/assets/addaf02d-bf93-4acd-8ab3-8234329765a2" />
-<img width="768" height="1296" alt="image" src="https://github.com/user-attachments/assets/572f06b1-ace6-4c6d-9f0c-d4bdcc8a2640" />
-<img width="773" height="1298" alt="image" src="https://github.com/user-attachments/assets/f5e59626-40f7-459c-b9a1-29c6c7a89dad" />
-<img width="794" height="1299" alt="image" src="https://github.com/user-attachments/assets/cd1f299e-0496-4e81-89d3-e9e97763258f" />
+# Wireframe :
+<div align="center">
+  
+  <!-- Baris pertama: 2 gambar -->
+  <p align="center">
+    <img width="45%" src="https://github.com/user-attachments/assets/ff713be1-6faf-44d2-bd33-0428530c57ad" />
+    <img width="45%" src="https://github.com/user-attachments/assets/addaf02d-bf93-4acd-8ab3-8234329765a2" />
+  </p>
+  
+  <!-- Baris kedua: 3 gambar dengan ukuran lebih kecil -->
+  <p align="center">
+    <img width="30%" src="https://github.com/user-attachments/assets/572f06b1-ace6-4c6d-9f0c-d4bdcc8a2640" />
+    <img width="30%" src="https://github.com/user-attachments/assets/f5e59626-40f7-459c-b9a1-29c6c7a89dad" />
+    <img width="30%" src="https://github.com/user-attachments/assets/cd1f299e-0496-4e81-89d3-e9e97763258f" />
+  </p>
+  
+</div>
 
 
 # Perseminaran App (Neobrutalism & Material Design)
