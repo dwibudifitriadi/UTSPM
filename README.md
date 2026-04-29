@@ -1,4 +1,12 @@
 Link YouTube : https://youtu.be/FGdUVLyGdKc?si=cVPS2PrBfOXrUrxK
+Wireframe :
+<img width="941" height="1541" alt="image" src="https://github.com/user-attachments/assets/ff713be1-6faf-44d2-bd33-0428530c57ad" />
+<img width="657" height="1291" alt="image" src="https://github.com/user-attachments/assets/addaf02d-bf93-4acd-8ab3-8234329765a2" />
+<img width="768" height="1296" alt="image" src="https://github.com/user-attachments/assets/572f06b1-ace6-4c6d-9f0c-d4bdcc8a2640" />
+<img width="773" height="1298" alt="image" src="https://github.com/user-attachments/assets/f5e59626-40f7-459c-b9a1-29c6c7a89dad" />
+<img width="794" height="1299" alt="image" src="https://github.com/user-attachments/assets/cd1f299e-0496-4e81-89d3-e9e97763258f" />
+
+
 # Perseminaran App (Neobrutalism & Material Design)
 
 Aplikasi pendaftaran seminar Android yang menggabungkan estetika **Neobrutalism** (garis tepi tebal, warna kontras) dengan fungsionalitas **Material Design 3** (TextInputLayout, MaterialButton, Material Icons).
