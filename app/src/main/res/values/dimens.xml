@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="nb_border_width">3dp</dimen>
+<dimen name="nb_shadow_offset">6dp</dimen>
+<dimen name="nb_corner_radius">0dp</dimen> <!-- Biasanya 0 untuk brutalism murni, bisa 8dp untuk neobrutalism -->
+</resources>

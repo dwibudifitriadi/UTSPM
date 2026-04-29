@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nb_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran Berhasil"
+            style="@style/TextAppearance.NB.Headline"
+            android:textColor="@color/nb_secondary"
+            android:layout_marginBottom="32dp"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/bg_card_border_nb"
+            android:padding="24dp"
+            android:layout_marginBottom="32dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ringkasan Pendaftaran:"
+                style="@style/TextAppearance.NB.Body"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:id="@+id/tv_res_nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama: -"
+                style="@style/TextAppearance.NB.Body"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_res_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Email: -"
+                style="@style/TextAppearance.NB.Body"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_res_hp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nomor HP: -"
+                style="@style/TextAppearance.NB.Body"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_res_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jenis Kelamin: -"
+                style="@style/TextAppearance.NB.Body"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:id="@+id/tv_res_seminar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Seminar: -"
+                style="@style/TextAppearance.NB.Body"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_back_to_home"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_button_nb"
+            android:text="KEMBALI KE BERANDA"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.NB.Button"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"/>
+
+    </LinearLayout>
+</ScrollView>

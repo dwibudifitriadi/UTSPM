@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="nb_bg">#FDF7E7</color>       <!-- Krem terang -->
+    <color name="nb_bg_secondary">#FFEAA7</color>
+    <color name="nb_card_bg">#FFFFFF</color>
+
+    <!-- Warna utama aksi -->
+    <color name="nb_primary">#FF6B6B</color>   <!-- Merah coral -->
+    <color name="nb_secondary">#4ECDC4</color> <!-- Toska -->
+    <color name="nb_accent">#FFE66D</color>    <!-- Kuning -->
+
+    <!-- Border & Shadow -->
+    <color name="nb_border">#1A1A1A</color>    <!-- Hitam keabuan -->
+    <color name="nb_shadow">#1A1A1A</color>
+    <color name="nb_text_primary">#1A1A1A</color>
+    <color name="nb_text_secondary">#2C3E50</color>
+    <color name="nb_disabled">#B2BEC3</color>
+</resources>

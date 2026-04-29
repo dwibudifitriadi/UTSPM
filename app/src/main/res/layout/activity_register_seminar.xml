@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/nb_bg"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pendaftaran Seminar"
+            style="@style/TextAppearance.NB.Headline"
+            android:layout_marginBottom="24dp"/>
+
+        <!-- Nama -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_nama"
+            style="@style/Widget.NB.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Nama Lengkap"
+            app:startIconDrawable="@drawable/ic_person_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Email -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_email"
+            style="@style/Widget.NB.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Email"
+            app:startIconDrawable="@drawable/ic_email_24">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Nomor HP -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/til_hp"
+            style="@style/Widget.NB.TextInputLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:hint="Nomor HP"
+            app:startIconDrawable="@drawable/ic_chat">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_hp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Jenis Kelamin -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jenis Kelamin"
+            style="@style/TextAppearance.NB.Body"
+            android:layout_marginBottom="8dp"/>
+        <RadioGroup
+            android:id="@+id/rg_gender_seminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+            <RadioButton
+                android:id="@+id/rb_male_seminar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginEnd="4dp"
+                android:text="Laki-laki"
+                android:button="@null"
+                android:background="@drawable/bg_radio_nb"
+                android:gravity="center"
+                android:paddingVertical="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/nb_text_primary"/>
+            <RadioButton
+                android:id="@+id/rb_female_seminar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginStart="4dp"
+                android:text="Perempuan"
+                android:button="@null"
+                android:background="@drawable/bg_radio_nb"
+                android:gravity="center"
+                android:paddingVertical="12dp"
+                android:textSize="16sp"
+                android:textColor="@color/nb_text_primary"/>
+        </RadioGroup>
+
+        <!-- Pilihan Seminar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pilih Seminar"
+            style="@style/TextAppearance.NB.Body"
+            android:layout_marginBottom="8dp"/>
+        <Spinner
+            android:id="@+id/spinner_seminar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_spinner_nb"
+            android:padding="12dp"
+            android:popupBackground="@color/nb_card_bg"
+            android:spinnerMode="dropdown"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Persetujuan -->
+        <CheckBox
+            android:id="@+id/cb_agree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Saya menyetujui data yang diinput benar"
+            android:button="@null"
+            android:background="@drawable/bg_checkbox_nb"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="16dp"
+            android:layout_marginBottom="24dp"
+            android:textSize="14sp"
+            android:textColor="@color/nb_text_primary"/>
+
+        <!-- Tombol Submit -->
+        <Button
+            android:id="@+id/btn_submit_seminar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/bg_button_nb"
+            android:text="SUBMIT"
+            android:textColor="@color/white"
+            style="@style/TextAppearance.NB.Button"
+            android:stateListAnimator="@null"
+            android:elevation="0dp"/>
+
+    </LinearLayout>
+</ScrollView>

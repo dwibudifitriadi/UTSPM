@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- State pressed: bayangan menghilang, tombol bergeser -->
+    <item android:state_pressed="true">
+        <layer-list>
+            <!-- Latar tombol (tanpa bayangan) -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/nb_primary"/>
+                    <stroke
+                        android:width="@dimen/nb_border_width"
+                        android:color="@color/nb_border"/>
+                    <corners android:radius="@dimen/nb_corner_radius"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+
+    <!-- State normal: ada bayangan blok -->
+    <item>
+        <layer-list>
+            <!-- Bayangan blok (offset) -->
+            <item
+                android:left="@dimen/nb_shadow_offset"
+                android:top="@dimen/nb_shadow_offset">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/nb_shadow"/>
+                    <corners android:radius="@dimen/nb_corner_radius"/>
+                </shape>
+            </item>
+            <!-- Tombol utama -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/nb_primary"/>
+                    <stroke
+                        android:width="@dimen/nb_border_width"
+                        android:color="@color/nb_border"/>
+                    <corners android:radius="@dimen/nb_corner_radius"/>
+                </shape>
+            </item>
+        </layer-list>
+    </item>
+</selector>

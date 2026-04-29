@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Bayangan blok -->
+    <item
+        android:left="@dimen/nb_shadow_offset"
+        android:top="@dimen/nb_shadow_offset">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/nb_shadow"/>
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+    <!-- Kartu putih -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/nb_card_bg"/>
+            <stroke
+                android:width="@dimen/nb_border_width"
+                android:color="@color/nb_border"/>
+            <corners android:radius="0dp"/>
+        </shape>
+    </item>
+</layer-list>

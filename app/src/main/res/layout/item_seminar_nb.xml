@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp"
+    app:cardElevation="0dp"
+    app:cardCornerRadius="0dp"
+    app:strokeWidth="@dimen/nb_border_width"
+    app:strokeColor="@color/nb_border"
+    app:cardBackgroundColor="@color/nb_card_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Image Placeholder with Material Border -->
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginBottom="12dp"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="0dp"
+            app:strokeWidth="1dp"
+            app:strokeColor="@color/nb_border"
+            app:cardBackgroundColor="@color/nb_bg_secondary">
+
+            <ImageView
+                android:id="@+id/iv_seminar_icon"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="center"
+                android:src="@drawable/ic_event"
+                android:alpha="0.2"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_category"
+                android:layout_marginEnd="6dp"
+                app:tint="@color/nb_text_secondary"/>
+
+            <TextView
+                android:id="@+id/tv_seminar_category"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Kategori"
+                style="@style/TextAppearance.NB.Body"
+                android:textSize="12sp"
+                android:textColor="@color/nb_text_secondary"/>
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:src="@drawable/ic_event"
+                android:layout_marginEnd="6dp"
+                app:tint="@color/nb_text_secondary"/>
+
+            <TextView
+                android:id="@+id/tv_seminar_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tanggal"
+                style="@style/TextAppearance.NB.Body"
+                android:textSize="12sp"
+                android:textColor="@color/nb_text_secondary"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_seminar_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Seminar"
+            style="@style/TextAppearance.NB.Headline"
+            android:textSize="22sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/tv_seminar_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            style="@style/TextAppearance.NB.Body"
+            android:textSize="14sp"
+            android:layout_marginTop="4dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/nb_border"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@drawable/ic_location"
+                    android:layout_marginEnd="6dp"
+                    app:tint="@color/nb_primary"/>
+
+                <TextView
+                    android:id="@+id/tv_seminar_location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Lokasi"
+                    style="@style/TextAppearance.NB.Body"
+                    android:textSize="14sp"/>
+            </LinearLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_item_daftar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="DAFTAR"
+                android:textColor="@color/white"
+                android:paddingHorizontal="20dp"
+                android:backgroundTint="@color/nb_primary"
+                app:cornerRadius="0dp"
+                app:strokeColor="@color/nb_border"
+                app:strokeWidth="2dp"
+                style="@style/Widget.Material3.Button"/>
+        </RelativeLayout>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
