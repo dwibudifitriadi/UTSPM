@@ -1,3 +1,4 @@
+Link YouTube : https://youtu.be/FGdUVLyGdKc?si=cVPS2PrBfOXrUrxK
 # Perseminaran App (Neobrutalism & Material Design)
 
 Aplikasi pendaftaran seminar Android yang menggabungkan estetika **Neobrutalism** (garis tepi tebal, warna kontras) dengan fungsionalitas **Material Design 3** (TextInputLayout, MaterialButton, Material Icons).
