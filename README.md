@@ -1,4 +1,4 @@
-Link YouTube : https://youtu.be/FGdUVLyGdKc?si=cVPS2PrBfOXrUrxK
+[![Demo Aplikasi Pendaftaran Seminar](https://img.youtube.com/vi/FGdUVLyGdKc/0.jpg)](https://youtu.be/FGdUVLyGdKc?si=o42o-yITR6h6nVAj)
 # Wireframe :
 <div align="center">
   
